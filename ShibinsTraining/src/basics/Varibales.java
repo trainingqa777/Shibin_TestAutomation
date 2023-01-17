@@ -16,9 +16,12 @@ public class Varibales {
 		char letter = 'a';
 		double percentage = 11.2;
 		
-		Varibales v = new Varibales();
-		v.swap();
 		
+		
+		//Object Creation
+		//Classname objectName = new Classname();
+		Varibales var = new Varibales();
+		var.methodName();
 		
 	}
 	
@@ -31,6 +34,10 @@ public class Varibales {
 		y=z;
 		System.out.println("x = "+x);
 		System.out.println("y = "+y);
+	}
+	
+	public void methodName() {
+		System.out.println("methodName");
 	}
 
 }

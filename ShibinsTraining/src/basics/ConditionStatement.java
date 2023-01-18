@@ -2,7 +2,7 @@ package basics;
 
 public class ConditionStatement {
 
-	String Day = "Monday";
+	String Day = "Tuesday";
 	
     public static void main(String[] args) {
     	ConditionStatement cs = new ConditionStatement();

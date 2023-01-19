@@ -4,7 +4,7 @@ public class Month {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int month = 12;
+		int month = 7;
 		switch (month) {
 		case 1:{
 			System.out.println("The month is Jan");

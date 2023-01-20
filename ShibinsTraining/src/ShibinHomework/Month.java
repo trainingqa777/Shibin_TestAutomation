@@ -3,7 +3,10 @@ package ShibinHomework;
 public class Month {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Month mn = new Month();
+		mn.MonthNo();
+	}
+	public void MonthNo() {
 		int month = 7;
 		switch (month) {
 		case 1:{
@@ -57,8 +60,6 @@ public class Month {
 		default:{
 			System.out.println("The entry is invalid");
 		}
-			
 		}
 	}
-
 }

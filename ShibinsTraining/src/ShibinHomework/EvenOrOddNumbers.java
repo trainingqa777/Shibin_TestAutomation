@@ -3,7 +3,12 @@ package ShibinHomework;
 public class EvenOrOddNumbers {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		EvenOrOddNumbers eo = new EvenOrOddNumbers();
+		eo.EvenOdd();
+	}
+	
+	public void EvenOdd() {
 		int x = 0;
 		int y = x%2;
 		if (y==0) {
@@ -11,6 +16,7 @@ public class EvenOrOddNumbers {
 		}
 		else {System.out.println("The number is odd");
 
-		}
 	}
 }
+}
+

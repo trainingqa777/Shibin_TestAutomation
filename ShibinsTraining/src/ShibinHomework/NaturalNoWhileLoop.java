@@ -6,11 +6,13 @@ public class NaturalNoWhileLoop {
 		
 		
 		NaturalNoWhileLoop nn = new NaturalNoWhileLoop();
-		nn.NaturalNo();
-		nn.DesNatNo();
-			for (int i=1; i<=10; i++) {
-			nn.MultiTable(i);
-			}
+		//nn.NaturalNo();
+		//nn.DesNatNo();
+		nn.PrimeNumber(13);
+			//for (int i=1; i<=10; i++) {
+				
+			//nn.MultiTable(i);
+			//}
 	}
 	public void NaturalNo() {
 		int i = 1;
@@ -38,4 +40,23 @@ public class NaturalNoWhileLoop {
 			  System.out.println(i+" x " + n +" = "+i*n);
 			}
 	}
+	public void PrimeNumber(int n) {
+		boolean flag=false; 
+		for (int i =(n-1); i>=2; i--){
+			if (n%i==0) {
+				System.out.println("The "+n+" is not prime number");
+				flag = true;
+				break;
+			}
+		}
+		
+			if (flag==false) {
+				System.out.println("The "+n+" is prime number");
+			}
+			
+			
+	}
 }
+		
+	
+

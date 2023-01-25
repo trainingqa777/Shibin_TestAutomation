@@ -41,19 +41,32 @@ public class Javafunctions {
 		cars.add("BMW");
 		
 		cars.set(2, "Opel");
-		System.out.println(cars.get(2));
+		//System.out.println(cars.get(2));
 		
-		System.out.println(cars.size());
+		//System.out.println(cars.size());
 		
-		for (int i = 0; i < cars.size(); i++) {
-		      System.out.println(cars.get(i));
-		    }
+//		for (int i = 0; i < cars.size(); i++) {
+//		      System.out.println(cars.get(i));
+//		 }
+		
+		//Foreach loop
+		//for each element in collection
+		for(String car : cars) {
+			System.out.println(car);
+		}
+		
+		//ArrayConcept();
 	}
 
 	public void forLoops() {
 		for (int i = 0; i < 5; i++) {
 			System.out.println(i);
 		}
+	}
+	
+	public String VerifyTitle() {
+		return "VerifyTitle";
+		
 	}
 
 	public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package ShibinHomework;
 
+import basics.Javafunctions;
+
 public class NaturalNoWhileLoop {
 
 	public static void main(String[] args) {
@@ -9,10 +11,15 @@ public class NaturalNoWhileLoop {
 //		nn.NaturalNo();
 //		nn.DesNatNo();
 //			
-		nn.MultiTable(4);
+//		nn.MultiTable(4);
 //			
 //		boolean p=nn.PrimeNumber(13);
 //		System.out.println(p);
+		int x = nn.addition(10, 20);
+		System.out.println(x);
+		
+		Javafunctions jf = new Javafunctions();
+		jf.List();
 	}
 	public void NaturalNo() {
 		int i = 1;
@@ -55,6 +62,11 @@ public class NaturalNoWhileLoop {
 			}
 			
 		return flag;	
+	}
+	
+	public int addition(int x, int y) {
+		int sum = x+y;
+		return sum;
 	}
 }
 		

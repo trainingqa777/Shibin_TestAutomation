@@ -6,13 +6,13 @@ public class NaturalNoWhileLoop {
 		
 		
 		NaturalNoWhileLoop nn = new NaturalNoWhileLoop();
-		nn.NaturalNo();
-		nn.DesNatNo();
-			for (int i=1; i<=10; i++) {
-			nn.MultiTable(i);
-			}
-		boolean p=nn.PrimeNumber(13);
-		System.out.println(p);
+//		nn.NaturalNo();
+//		nn.DesNatNo();
+//			
+		nn.MultiTable(4);
+//			
+//		boolean p=nn.PrimeNumber(13);
+//		System.out.println(p);
 	}
 	public void NaturalNo() {
 		int i = 1;
